@@ -29,10 +29,10 @@
   玩法源于 _[太鼓达人][太鼓达人 维基百科]_。
   跟着节奏敲击太鼓。
 - ![osu!catch icon][osu!catch icon link] _[osu!catch][osu!catch wikilink]_：
-  通过移动角色用盘子接住下落的水果。
-  保持移动，不要错过每一个节拍。
+  移动角色，用盘子接住下落的水果。
+  保持移动，不要错过任何节拍。
 - ![osu!mania icon][osu!mania icon link] _[osu!mania][osu!mania wikilink]_：
-  玩法源于传送带式的节奏游戏，由 **woc2006** 引入和实现。
+  玩法源于传送带式的节奏游戏，由 **woc2006** 引入并实现。
   让音符奏出节拍的旋律。
 
 有关上述游戏模式的一般说明，请参阅 [FAQ][FAQ wikilink]。
