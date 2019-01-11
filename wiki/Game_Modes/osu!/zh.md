@@ -37,8 +37,6 @@
 <!-- Title -->
 # osu!
 
-**[Click to return to Game Modes page][Game_Modes wikilink]**
-
 <!-- Uncomment the below and delete this comment if ScoreV2 is official and the whole page must be revised to fit ScoreV2 system behaviour -->
 <!-- **[Click here to visit the older version of osu! using deprecated ScoreV1 system](./v1 "osu! v1")** -->
 
@@ -64,7 +62,7 @@ Through the magical power of male cheerleading, the player have to help the peop
 
 ## ![osu! icon][osu! icon link] Gameplay
 
-_Tutorial: [(Bundled with PC osu!) Original tutorial][osu!tutorial basic], [Ranked beatmap version][osu!tutorial rank]_
+_Tutorial: [(Bundled with PC osu!) Original tutorial][osu!tutorial basic], [Ranked beatmap version][osu!tutorial rank]_
 
 The gameplay puts emphasis on:-
 
@@ -76,7 +74,7 @@ The gameplay puts emphasis on:-
 - Physical stamina and mental fortitude (especially longer, marathon-type songs).
 - Proper positioning and hand-eye coordination.
 
-These are some of the vital skills to become an _osu! rhythm master_.
+These are some of the vital skills to become an _osu! rhythm champion_.
 
 The first step to begin the journey is to learn the basics (and theories) of the hittable objects (referred as _hit objects_ from here onwards).
 
@@ -160,9 +158,9 @@ The maximum number of spins per minute achievable is 477 which is also the rate 
 
 The default controls for osu! are:-
 
-Mouse|Keyboard|Tablet/Touchscreen
----|---|---|
-Left click(M1) / Right click(M2)|`Z`(K1) / `X`(K2)|Touching the screen(M1)
+| Mouse                            | Keyboard          | Tablet/Touchscreen      |
+|:---------------------------------|:------------------|:------------------------|
+| Left click(M1) / Right click(M2) | `Z`(K1) / `X`(K2) | Touching the screen(M1) |
 
 The hit objects in osu! will accept any input from the input device, as long as each hit objects was tapped in time.
 
@@ -182,14 +180,14 @@ Scoring section details all the intricacies of scoring, including mathematical f
 
 ### Grades
 
-Grade| Condition
-:---:|:---
-SS | 100% accuracy
-S  | Over 90% 300s, less than 1% 50s and no misses
-A  | Over 80% 300s and no misses **OR** over 90% 300s
-B  | Over 70% 300s and no misses **OR** over 80% 300s
-C  | Over 60% 300s
-D  | Anything else
+| Grade | Condition                                        |
+|:-----:|:-------------------------------------------------|
+|  SS   | 100% accuracy                                    |
+|   S   | Over 90% 300s, less than 1% 50s and no misses    |
+|   A   | Over 80% 300s and no misses **OR** over 90% 300s |
+|   B   | Over 70% 300s and no misses **OR** over 80% 300s |
+|   C   | Over 60% 300s                                    |
+|   D   | Anything else                                    |
 
 A silver S or SS can be obtained by using the _[Hidden][Hidden wikilink]_ and/or _[Flashlight][Flashlight wikilink]_ mod.
 
@@ -199,12 +197,12 @@ Accuracy is calculated by weighting the judgement gained on each note by its val
 
 In other words: `Accuracy = Total points of hits / (Total number of hits * 300p)`
 
-Term | Formula
-:---:|:---
-**Total points of hits**   | (50s * 50p) + (100s * 100p) + (300s * 300p)
-**Total number of hits**   | (Misses + 50s + 100s + 300s) * 300
-**s**                      | Number of
-**p**                      | points
+|           Term           | Formula                                     |
+|:------------------------:|:--------------------------------------------|
+| **Total points of hits** | (50s * 50p) + (100s * 100p) + (300s * 300p) |
+| **Total number of hits** | (Misses + 50s + 100s + 300s) * 300          |
+|          **s**           | Number of                                   |
+|          **p**           | points                                      |
 
 In other words, each _Miss_ counts as 0 points, each _50_ counts as 50 points, each _100_ as 100 points and each _300_ as 300 points.
 
@@ -219,12 +217,12 @@ The score given by each hit circle and end of a slider is calculated with the fo
 
 `Score = Hit Value + (Hit Value * ((Combo multiplier * Difficulty multiplier * Mod multiplier) / 25))`
 
-Term | Meaning
-:---:|:---
-**Hit Value**             | The hit circle judgement (50, 100 or 300), any slider ticks and spinner's bonus
-**Combo multiplier**      | (Combo before this hit - 1) or 0; whichever is higher
-**Difficulty multiplier** | The difficulty setting for the beatmap (see next header)
-**Mod multiplier**        | The multiplier of the selected mods
+|           Term            | Meaning                                                                         |
+|:-------------------------:|:--------------------------------------------------------------------------------|
+|       **Hit Value**       | The hit circle judgement (50, 100 or 300), any slider ticks and spinner's bonus |
+|   **Combo multiplier**    | (Combo before this hit - 1) or 0; whichever is higher                           |
+| **Difficulty multiplier** | The difficulty setting for the beatmap (see next header)                        |
+|    **Mod multiplier**     | The multiplier of the selected mods                                             |
 
 Additionally each slider start, end and repeat tick awards 30 points, each slider middle tick awards 10 points and each spin of a spinner awards 100 points.
 
@@ -236,13 +234,13 @@ Additional bonus of 1,000 points given for each spin of a spinner after the spin
 
 The accumulated _difficulty points_ affect the **Difficulty multiplier** as so:-
 
-Difficulty points range | Difficulty multiplier
-:---:|---
-0 - 5   | 2x multiplier
-6 - 12  | 3x multiplier
-13 - 17 | 4x multiplier
-18 - 24 | 5x multiplier
-25 - 30 | 6x multiplier
+| Difficulty points range | Difficulty multiplier |
+|:-----------------------:|:----------------------|
+|          0 - 5          | 2x multiplier         |
+|         6 - 12          | 3x multiplier         |
+|         13 - 17         | 4x multiplier         |
+|         18 - 24         | 5x multiplier         |
+|         25 - 30         | 6x multiplier         |
 
 The limited highest is 27 difficulty points with CS7, OD10 and HP10.
 The limited lowest is 2 difficulty points with CS2, OD0 and HP0.
@@ -305,7 +303,7 @@ It all revolves around the HP difficulty setting which can only be set by the ma
 
 **The following will result in health recovery:-**
 
-- A successful tap on the hit circle (better judgement leads to more health gain; the last hit circle in a color combo awards more health).
+- A successful tap on the hit circle (better judgement leads to more health gain; the last hit circle in a colour combo awards more health).
 - A successful tap on a slider start.
 - The slider ball collected a slider tick successfully.
 - The slider ball touched the end or a reverse arrow of a slider successfully (better judgement at the end tick leads to more health gain).
@@ -353,7 +351,7 @@ _Smoke in key bindings settings; hold `C` key to trigger by default in osu!_
 - Smoke last longer than default in-game cursor trail.
   Apply smoke effects sparsely to prevent old smoke effects disappearing too quickly.
 - Mascot for osu! is [pippi][Mascots#pippi wikilink].
-- When played by [Auto][Auto wikilink], the player name will be _osu!_.
+- When played by [Auto][Auto wikilink], the player name will be osu!.
 
 ### History
 
